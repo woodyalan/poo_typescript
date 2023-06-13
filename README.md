@@ -13,6 +13,9 @@
 
 ## Encapsulamento
 
+6. Alterar a acessibilidade dos atributos das classes Aplicativo e Celular para privados e criar getters e setters para todos, exceto para o atributo ligado. Esse atributo deve ser manipulado pelos métodos ligar e desligar.
+7. 
+
 ## Henrança
 
 ## Polimorfismo
