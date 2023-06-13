@@ -9,7 +9,7 @@
 
 ### Construtores
 4. Criar um construtor para a classe Aplicativo que inicialize todos os atributos.
-5. Criar um construtor para a classe Celular que inicialize todos os atributos. Ao construir um celular, o celular deve estar desligado.
+5. Criar um construtor para a classe Celular que inicialize todos os atributos. Ao construir um celular, o celular deve estar desligado e não deve permitir que seja inicializado com aplicativos.
 
 ## Encapsulamento
 
