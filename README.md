@@ -20,5 +20,7 @@
 ## Henrança
 
 8. Criar uma classe Peixe que possua pelo menos 2 características e comportamentos adicionais de Animal.
+9. A principal característica de um Smartphone é possuir um sistema operacional. Remova o atributo tipo da classe Celular e crie uma representação de um Smartphone contendo o atributo sistema operacional.
+10. Criar uma classe que represente um iPhone, onde o sistema operacional pre-definido deve ser "iOS" na versão 15. Represente também um Galaxy S21 onde o sistema operacional deve ser o "Android" na versão 14. 
 
 ## Polimorfismo
