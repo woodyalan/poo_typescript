@@ -1,6 +1,10 @@
 // import { Animal } from "./models/Animal";
+import { Animal } from "./models/Animal";
 import { Aplicativo } from "./models/Aplicativo";
+import { Ave } from "./models/Ave";
 import { Celular } from "./models/Celular";
+import { Loja } from "./models/Loja";
+import { Papagaio } from "./models/Papagaio";
 
 // let iphone13 = new Celular();
 // iphone13.marca = "Apple";
@@ -42,16 +46,31 @@ import { Celular } from "./models/Celular";
 // console.log(cachorro);
 
 let linkedin = new Aplicativo("Linkedin", 50);
+// linkedin.tamanhoEmMegaBytes = 100;
+// console.log(linkedin.nome);
+
 console.log(linkedin);
 
-let iphone13 = new Celular("Apple", "iPhone 13", 256, 12, "Smartphone");
-iphone13.tipo = "Tijolão";
+let iphone13 = new Celular("Apple", "iPhone 13", 500, 12, "Smartphone");
 iphone13.ligar();
-console.log(iphone13);
+iphone13.capacidadeMemoriaInterna = 1000;
+console.log(iphone13.dataFabricacao);
 
-if (iphone13.marca === "Apple") {
-  console.log("gasta muita bateria");
-}
+let casasBahia = new Loja("Casas Bahia", "Rua 1", "Campo Mourão");
 
-iphone13.desligar();
-console.log(iphone13);
+casasBahia.adicionarAoEstoque(iphone13);
+console.log(casasBahia);
+console.log(casasBahia.celulares);
+
+let papagaio = new Animal("Papagaio", "Verde", "Papagaio", 1, 1, false);
+papagaio.locomover(10);
+// papagaio.botarOvo();
+
+let pombo = new Ave("Pombo", "Cinza", "Pombo", 1, 1, false);
+pombo.locomover(10);
+pombo.botarOvo();
+
+let loro = new Papagaio("Loro", "Verde", "Papagaio", 1, 1, false);
+loro.botarOvo();
+loro.repetir("Oi");
+loro.repetir("Barulho de alarme de carro");
