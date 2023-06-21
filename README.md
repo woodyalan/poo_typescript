@@ -19,4 +19,6 @@
 
 ## Henrança
 
+8. Criar uma classe Peixe que possua pelo menos 2 características e comportamentos adicionais de Animal.
+
 ## Polimorfismo
