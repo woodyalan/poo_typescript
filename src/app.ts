@@ -62,7 +62,7 @@ casasBahia.adicionarAoEstoque(iphone13);
 console.log(casasBahia);
 console.log(casasBahia.celulares);
 
-let papagaio = new Animal("Papagaio", "Verde", "Papagaio", 1, 1, false);
+let papagaio = new Animal("Papagaio", "Verde", "Papagaio", 1, 1);
 papagaio.locomover(10);
 // papagaio.botarOvo();
 
