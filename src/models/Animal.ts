@@ -1,4 +1,4 @@
-export class Animal {
+export abstract class Animal {
   nome: string;
   cor: string;
   raca: string;
@@ -26,11 +26,7 @@ export class Animal {
     }
   }
 
-  emitirSom(som: string) {
-    console.log(this.nome, "Emitindo som: " + som);
-  }
+  abstract emitirSom(som: string): void;
 
-  locomover(passos: number) {
-    console.log(this.nome, "Locomovendo " + passos + " passos");
-  }
+  abstract locomover(distanciaEmMetros: number): number;
 }

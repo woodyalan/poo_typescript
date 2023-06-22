@@ -1,6 +1,6 @@
 import { Animal } from "./Animal";
 
-export class Ave extends Animal {
+export abstract class Ave extends Animal {
   aquatico: boolean;
 
   constructor(

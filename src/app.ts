@@ -1,14 +1,6 @@
 // import { Animal } from "./models/Animal";
-import { Animal } from "./models/Animal";
 import { Aplicativo } from "./models/Aplicativo";
-import { Ave } from "./models/Ave";
-import { Celular } from "./models/Celular";
-import { GalaxyS21 } from "./models/GalaxyS21";
-import { IPhone } from "./models/IPhone";
-import { Loja } from "./models/Loja";
 import { Papagaio } from "./models/Papagaio";
-import { Peixe } from "./models/Peixe";
-import { Smartphone } from "./models/Smartphone";
 
 // let iphone13 = new Celular();
 // iphone13.marca = "Apple";
@@ -55,13 +47,13 @@ let linkedin = new Aplicativo("Linkedin", 50);
 
 console.log(linkedin);
 
-let iphone13 = new IPhone("Apple", "iPhone 13", 500, 12);
-iphone13.ligar();
-iphone13.capacidadeMemoriaInterna = 1000;
-console.log(iphone13);
+// let iphone13 = new IPhone("Apple", "iPhone 13", 500, 12);
+// iphone13.ligar();
+// iphone13.capacidadeMemoriaInterna = 1000;
+// console.log(iphone13);
 
-let galaxyS21 = new GalaxyS21("Samsung", "Galaxy S21", 500, 12);
-console.log(galaxyS21);
+// let galaxyS21 = new GalaxyS21("Samsung", "Galaxy S21", 500, 12);
+// console.log(galaxyS21);
 
 // let casasBahia = new Loja("Casas Bahia", "Rua 1", "Campo Mourão");
 
@@ -77,10 +69,10 @@ console.log(galaxyS21);
 // pombo.locomover(10);
 // pombo.botarOvo();
 
-// let loro = new Papagaio("Loro", "Verde", "Papagaio", 1, 1, false);
-// loro.botarOvo();
-// loro.repetir("Oi");
-// loro.repetir("Barulho de alarme de carro");
+let loro = new Papagaio("Loro", "Verde", "Papagaio", 1, 1, false);
+loro.botarOvo();
+loro.emitirSom("Oi");
+loro.locomover(10);
 
 // let nemo = new Peixe("Nemo", "Laranja", "Peixe-palhaço", 1, 1, true, 2);
 
