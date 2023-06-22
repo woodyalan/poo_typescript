@@ -17,10 +17,13 @@
 7. Criar um atributo que indique a data de fabricação de um celular. Essa data deve ser registrada automaticamente e não pode ser alterada.
 8. Criar uma classe que represente uma uma loja de celulares. Uma loja deve ter um nome, endereço, cidade e uma lista de Celulares disponíveis para venda. Deve ser possível adicionais novos celulares e também listar os celulares disponíveis de forma que não seja possível remover celulares da lista.
 
-## Henrança
+## Herança
 
 8. Criar uma classe Peixe que possua pelo menos 2 características e comportamentos adicionais de Animal.
 9. A principal característica de um Smartphone é possuir um sistema operacional. Remova o atributo tipo da classe Celular e crie uma representação de um Smartphone contendo o atributo sistema operacional.
-10. Criar uma classe que represente um iPhone, onde o sistema operacional pre-definido deve ser "iOS" na versão 15. Represente também um Galaxy S21 onde o sistema operacional deve ser o "Android" na versão 14. 
+10. Criar uma classe que represente um iPhone, onde o sistema operacional pré-definido deve ser "iOS" na versão 15. Represente também um Galaxy S21 onde o sistema operacional deve ser o "Android" na versão 14. 
 
 ## Polimorfismo
+
+11. Implementar um classe abstrata que represente um Sistema Operacional contendo os atributos nome, empresa proprietária e versão. Um sistema operacional deve realizar backup dos dados sempre que necessário, onde o iOS faz seu backup no iCloud e o Android no Google Drive. Preparar a classe para que cada OS faça seu backup respeitando suas particularidades.
+12. Ajustar o atributo sistemaOperacional, da classe Smartphone, para que seja possível atribuir a ele um objeto das classes IOS ou Android. 
