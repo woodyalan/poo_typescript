@@ -5,7 +5,6 @@ export class Celular {
   private _modelo: string;
   private _capacidadeMemoriaInterna: number;
   private _qualidadeCamera: number;
-  private _tipo: string;
   private _nivelBateria: number;
   private _ligado: boolean;
   private _dataFabricacao: Date;
@@ -15,14 +14,12 @@ export class Celular {
     marca: string,
     modelo: string,
     capacidadeMemoriaInterna: number,
-    qualidadeCamera: number,
-    tipo: string
+    qualidadeCamera: number
   ) {
     this._marca = marca;
     this._modelo = modelo;
     this._capacidadeMemoriaInterna = capacidadeMemoriaInterna;
     this._qualidadeCamera = qualidadeCamera;
-    this._tipo = tipo;
     this._nivelBateria = 100;
     this._ligado = false;
     this._aplicativos = [];
@@ -59,14 +56,6 @@ export class Celular {
 
   public set qualidadeCamera(value: number) {
     this._qualidadeCamera = value;
-  }
-
-  public get tipo(): string {
-    return this._tipo;
-  }
-
-  public set tipo(value: string) {
-    this._tipo = value;
   }
 
   public get nivelBateria(): number {
