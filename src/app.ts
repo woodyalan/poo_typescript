@@ -1,5 +1,9 @@
 // import { Animal } from "./models/Animal";
+import { Android } from "./models/Android";
 import { Aplicativo } from "./models/Aplicativo";
+import { GalaxyS21 } from "./models/GalaxyS21";
+import { IOS } from "./models/IOS";
+import { IPhone } from "./models/IPhone";
 import { Papagaio } from "./models/Papagaio";
 
 // let iphone13 = new Celular();
@@ -79,3 +83,16 @@ loro.locomover(10);
 // nemo.nadar();
 // nemo.respirarDebaixoDAgua();
 // nemo.locomover(10);
+
+let lollipop = new Android(12);
+lollipop.fazerBackup();
+
+let ios15 = new IOS(15);
+ios15.fazerBackup();
+
+let galaxyS21 = new GalaxyS21("Samsung", "Galaxy S21", 500, 12);
+console.log(galaxyS21);
+
+let iphone13 = new IPhone("Apple", "iPhone 13", 500, 12);
+console.log(iphone13);
+iphone13.sistemaOperacional.fazerBackup();
